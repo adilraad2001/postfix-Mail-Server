@@ -331,6 +331,7 @@ smtpd_data_restrictions = reject_unauth_pipelining
 smtpd_helo_required = yes 
 # **waste spammers time before rejecting them 
 smtpd_delay_reject = yes disable_vrfy_command = yes 
+home_mailbox = Maildir/
 
 ```
 
